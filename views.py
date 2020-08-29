@@ -8,4 +8,7 @@ def login(request):
 	return redirect("/index")
 
 def reg(request):
-	return redirect("/reg")
+	return redirect("reg")
+
+def add_cart(request):
+	return HttpResponse("add_cart")
